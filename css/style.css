@@ -1,0 +1,101 @@
+html {
+    font-size: 16px;
+}
+
+bady {
+    margin: 0;
+}
+
+header {
+    background-color: var(--header-color);
+    padding: 35px 0;
+}
+
+header h1 {
+    text-align: center;
+    font-family: "logo";
+    color: #fff;
+    font-size: 2rem;
+    text-shadow: 2px 2px 4px;
+
+}
+
+#main {
+    display: flex;
+    
+    
+
+}
+
+#menu {
+    width: 20%;
+    background-color: var(--menu-color);
+    color: #fff;
+    padding: 20px 10px;
+}
+
+#menu span {
+    font-family: "bold";
+    font-size: 1.5rem;
+
+}
+
+#menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+#menu li {
+    font-family: "regular";
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-size: 1rem;
+
+}
+
+#menu li:rover {
+    color: #222b80;
+}
+
+#content {
+    width: 80%;
+    padding: 30px 20px;
+    background-color: var(--content-color);
+}
+
+#content-title {
+    font-family: "bold";
+    text-align: center;
+    font-size: 2rem;
+}
+
+.movie-card {
+    background-color: var(--movie-card-color);
+    border-radius: 30px;
+    width: 70%;
+    margin: 30px auto;
+    display: flex;
+    padding: 45px;
+}
+
+.movie-card img {
+    width: 50%;
+}
+
+.movie-card span {
+    width: 50%;
+    padding: 0 20px;
+    font-family: "regular";
+    font-size: 13px;
+}
+
+footer {
+    background-color: var(--footer-color);
+    padding: 50px 20px;
+  }
+  
+  footer span {
+    color: #fff;
+    font-family: "bold";
+    font-size: 1rem;
+  }
